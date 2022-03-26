@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('New commit :)))))');
+  console.log('Hi. Server is running');
+  res.send('Hello node.js world');
 });
 
 
